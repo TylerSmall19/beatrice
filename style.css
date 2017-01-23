@@ -4,6 +4,7 @@ body {
 	background-attachment: fixed;
 	background-position: 0px -55px;
 	font-family: 'Fjalla One', Arial, Helvetica;
+	background-repeat: no-repeat;
 }
 
 header {
