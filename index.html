@@ -1,21 +1,35 @@
-<html>
+<!doctype html>
+<html lang="en">
 <head>
 	<title>Test Resume Webpage</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles/reset.css">
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<!-- Overload basic styles on small screens. -->
+	<link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 1024px)" type="text/css" href="styles/mobile-style.css" />
 </head>
 <body>
 	<div id='container'>
-		<header>
+		<header class='wrapper'>
 			<nav>
-				<a href='#home' class='nav-link'>Home</a><br>
-				<a href='#about-me' class='nav-link'>About Me</a><br>
-				<a href='#contact-me' class='nav-link'>Contact Me</a><br>
-				<a href='#gallery' class='nav-link'>Gallery</a>
+				<ul class='nav-link'>
+					<li class='box-3'>
+						<a href='#home'>Home</a> 
+					</li>
+					<li class='box-3'>
+						<a href='#about-me'>About</a> 
+					</li>
+					<li class='box-3'>
+						<a href='#contact-me'>Contact</a> 
+					</li>
+					<li>
+						<a href='#gallery' class='box'>Gallery</a>
+					</li>
+				</ul>
 			<nav>
 		</header>
 		
-		<main>
+		<main class='wrapper'>
 			<section>
 				<h1 id='home' class='section-header'>
 					Do Yoga Err Day
@@ -26,7 +40,7 @@
 			</section>
 		</main>
 
-		<footer>
+		<footer class='wrapper'>
 			Copyright Beatrice 2017
 		</footer>
 	</div>
