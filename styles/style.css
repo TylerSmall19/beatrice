@@ -27,6 +27,10 @@ main {
 	text-decoration: none;
 }
 
+.nav-link a:hover {
+	color: ;
+}
+
 .section-header {
 	font-size: 3.4em;
 	color: #00B64F;
