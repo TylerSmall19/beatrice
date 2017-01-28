@@ -15,12 +15,14 @@ header {
 
 main {
 	height: 700px;
+	display: block;
 }
 
 .nav-link {
-	font-size: 6em;
+	font-size: 3.2em;
 	color: #ff3300;
 	text-decoration: none;
+	margin-right: 13px;
 }
 
 .section-header {
@@ -31,7 +33,4 @@ main {
 #container {
 	width: 850px;
 	margin: 0 auto;
-	opacity: 0.9;
-  filter: alpha(opacity=90); /* For IE8 and earlier */
-  /*background-color: white;*/
 }
