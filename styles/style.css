@@ -1,10 +1,15 @@
-body {
-	background-image: url('img/background.jpg');
-	background-size: 100%;
-	background-attachment: fixed;
+html {
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	background-image: url('../img/background.jpg');
 	background-position: 0px -55px;
-	font-family: 'Fjalla One', Arial, Helvetica;
 	background-repeat: no-repeat;
+}
+
+body {
+	font-family: 'Fjalla One', Arial, Helvetica;
 }
 
 header {
@@ -30,7 +35,12 @@ main {
 	color: #00B64F;
 }
 
-#container {
-	width: 850px;
+.wrapper {
 	margin: 0 auto;
+	width: 850px;
+}
+
+#container {
+
+	width: 100%;
 }
