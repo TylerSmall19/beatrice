@@ -21,8 +21,8 @@ main {
 	display: block;
 }
 
-.nav-link {
-	font-size: 3.2em;
+.nav-link a {
+	font-size: 3.3em;
 	color: #ff3300;
 	text-decoration: none;
 	margin-right: 13px;
@@ -40,6 +40,5 @@ main {
 }
 
 #container {
-
 	width: 100%;
 }
