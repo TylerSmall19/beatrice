@@ -1,0 +1,43 @@
+html {
+	background: url('../img/background.png') no-repeat 0px -55px fixed; 
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+	font-family: 'Fjalla One', Arial, Helvetica;
+}
+
+header {
+	border-bottom: solid 4px #ff3300;
+	text-align: right;
+	letter-spacing: 4px;
+}
+
+main {
+	height: 700px;
+	display: block;
+}
+
+.nav-link a {
+	font-size: 3.3em;
+	color: #ff3300;
+	text-decoration: none;
+}
+
+.section-header {
+	font-size: 3.4em;
+	color: #1F9BB2;
+}
+
+.wrapper {
+	margin: 0 auto;
+	min-width: 750px;
+	width: 850px;
+}
+
+#container {
+	width: 100%;
+}
