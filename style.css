@@ -1,9 +1,13 @@
 body {
 	background-image: url('img/background.jpg');
 	background-size: 100%;
-	background-attachment: fixed;
+	background-attachment: absolute;
 	background-position: 0px -55px;
 	background-repeat: no-repeat;
+	background-color: red;
+
+	min-width: 850px;
+
 	font-family: 'Fjalla One', Arial, Helvetica;
 }
 
@@ -16,9 +20,9 @@ header {
 main {
 	min-height: 700px;
 	max-width: 850px;
-	background: black;
-	opacity: 0.7;
-  filter: alpha(opacity=70); /* For IE8 and earlier */
+	min-width: 750px;
+	background: rgb(0,0,0);
+	background: rgba(0,0,0,0.5);
   padding: 7px;
   padding-left: 15px;
   display: block;
@@ -36,14 +40,12 @@ p {
 }
 
 .section-header {
-	font-size: 3.4em;
-	color: #00B64F;
+	font-size: 3.7em;
+	color: #1F9BB2;
 }
 
 .body-content {
 	color: white;
-	opacity: 1;
-  filter: alpha(opacity=100); /* For IE8 and earlier */
 }
 
 #container {
